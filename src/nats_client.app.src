@@ -1,0 +1,15 @@
+{application, nats_client,
+ [{description, "Teacup based NATS Client for Erlang"},
+  {vsn, "1.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    teacup
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, ["Oleg Litvin"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/olitvin/nats_client.git"}]}
+ ]}.
